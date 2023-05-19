@@ -1,0 +1,50 @@
+.footer {
+    background-color: rgb(217, 221, 193);
+    padding: 3rem 0;
+    background-position: 50%;
+}
+
+.contenedor {
+    max-width: 120rem;
+    margin: 0 auto;
+    width: 95%;
+}
+
+.principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .titulo {
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .titulo3{
+    font-size: 1.0rem;
+    font-weight: 200;
+    margin: 0 100px; 
+}
+  .subTitulo1,
+  .subTitulo2 {
+    font-size: 1.5rem;
+    font-weight: 200;
+    margin: 0 100px; /* Ajusta el margen según tu preferencia */
+  }
+
+
+@media (min-width:768px) {
+    .barra {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+.divisor {
+    width: 2px;
+    background-color: black;
+    height: 120px; /* Ajusta la altura de la línea vertical según sea necesario */
+    margin: 0 30px;
+  }
