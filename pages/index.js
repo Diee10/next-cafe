@@ -49,7 +49,7 @@ export default function Home() {
       </Head>
       <Layout home>
         <div>
-          <ImageWithText src="/images/cafe.jpg" alt="My Image" caption='Tu lugar para comer delicioso y tomar Café' caption2='Café y restaurante' />
+          <ImageWithText src="/images/cafe.jpg" className={utilStyles.paralax} alt="My Image" caption='Tu lugar para comer delicioso y tomar Café' caption2='Café y restaurante' />
         </div>
         <Slide />
         <div className={space.className}>
@@ -68,7 +68,7 @@ export default function Home() {
             </div>
           </div>
           <div className={utilStyles.divPrincipal}>
-            <div className={`${utilStyles.derecha} ${utilStyles.order2}`} data-order="2" ref={ref3}>
+            <div className={`${utilStyles.derecha} ${utilStyles.order2}` } data-order="2" ref={ref3}>
               <Image src="/images/servirCafe.jpg" alt="servir" layout="responsive" width={1000} height={700} style={{transform: isIntersecting3 ? 'scale(1.1)' : 'scale(1)', transition: 'transform 0.5s ease-in-out',}}/>
             </div>
             <div className={`${utilStyles.izquierda} ${utilStyles.order1}`} data-order="1">
