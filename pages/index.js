@@ -48,8 +48,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Layout home>
-        <div>
-          <ImageWithText src="/images/cafe.jpg" className={utilStyles.paralax} alt="My Image" caption='Tu lugar para comer delicioso y tomar Café' caption2='Café y restaurante' />
+        <div >
+          <ImageWithText src="/images/cafe.jpg"  alt="My Image" caption='Tu lugar para comer delicioso y tomar Café' caption2='Café y restaurante' />
         </div>
         <Slide />
         <div className={space.className}>
